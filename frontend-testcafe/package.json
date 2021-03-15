@@ -1,0 +1,16 @@
+{
+  "name": "frontend-testcafe",
+  "version": "1.0.0",
+  "description": "assessment session1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-all-chrome": "testcafe chrome ./page_model/test",
+    "test-all-firefox": "testcafe firefox ./page_model/test"
+  },
+  "author": "Sofia Milanes",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
